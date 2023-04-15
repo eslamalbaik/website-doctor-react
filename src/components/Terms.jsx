@@ -8,7 +8,7 @@ const Terms = () => {
       <div div className='pt-28  lg:mx-[200px] mx-4' >
         <div className='flex justify-center items-center flex-col space-y-4 pt-8'>
           <h2 className='text-[#02c873] leading-8 text-[28px] font-bold'>شروط الاستخدام</h2>
-          <img className='pb-8' src={imgtitle} alt="image-tilte" />
+          <img className='pb-8' src={imgtitle} alt="imagetilte" />
         </div>
         <div>
           <h3 className={h3style}>1.شروط</h3>

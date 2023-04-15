@@ -1,6 +1,5 @@
 import React from 'react'
 import doctor from '../images/doctor.png';
-import { SlMouse } from 'react-icons/sl'
 import "./../App.css";
 
 const Hero = () => {

@@ -2,7 +2,7 @@ import React from 'react'
 import imgtitle from '../images/title_img.svg'
 import ico_1 from '../images/icon_01.svg'
 import icon_2 from '../images/icon_02.svg'
-import Best_componet from './Best_componet'
+import BestComponet from './BestComponet'
 
 const list_box = [
   {
@@ -30,13 +30,13 @@ const Best = () => {
       <div className='flex justify-center items-center flex-col space-y-4'>
         <h4 className='text-[#333333] leading-6 text-[22px] font-medium'>لأننا دائما الأفضل</h4>
         <h2 className='text-[#02c873] leading-8 text-[28px] font-bold'>مايميزنا لنكون الخيار الأفضل</h2>
-        <img className=' pb-8' src={imgtitle} alt="image-tilte" />
+        <img className=' pb-8' src={imgtitle} alt="imagetilte" />
       </div>
       <div className=' flex lg:flex-row lg:mx-40 flex-col gap-10 mb-14 '>
         {/* boxs  */}
         {
           list_box.map((ele, index) => {
-            return <Best_componet key={index} href={ele.href} title={ele.title} tbody={ele.tbody} tbody2={ele.tbody2} />
+            return <BestComponet key={index} href={ele.href} title={ele.title} tbody={ele.tbody} tbody2={ele.tbody2} />
           })
         }
       </div>

@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Best_componet = (props) => {
+const BestComponet = (props) => {
   return (
     <div className='bg-white w-full rounded-[44px]  py-8 my-1 space-y-4 md:w-1/2 lg:my-4 flex justify-center items-center flex-col shadow-sm shadow-[#aeb0af] hover:shadow-[#04C873]' >
       <div className='bg-[#eef8fa] rounded-full p-4 border-transparent  hover:border-[#02c873] hover:rounded-full border-[4px] hover: transition-all delay-200'>
@@ -17,4 +17,4 @@ const Best_componet = (props) => {
   )
 }
 
-export default Best_componet
+export default BestComponet

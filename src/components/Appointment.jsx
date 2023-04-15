@@ -19,7 +19,7 @@ const Appointment = () => {
     <div className='bg-[#1f1b4a] h-[586px] relative'>
       <div className='flex justify-center items-center lg:flex-col space-y-4 pt-8'>
         <h2 className='text-[#02c873] leading-8 text-[28px] font-bold'>احجز الآن بكل سهولة</h2>
-        <img className='pb-8' src={imgtitle} alt="image-tilte" />
+        <img className='pb-8' src={imgtitle} alt="imagetilte" />
       </div>
       <div>
         <div className='flex justify-start items-center'>

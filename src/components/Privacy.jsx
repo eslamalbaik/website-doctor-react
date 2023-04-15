@@ -6,7 +6,7 @@ const Privacy = () => {
       <div className='pt-28 lg:mx-[200px]  mx-4'>
         <div className='flex justify-center items-center flex-col space-y-4 pt-8'>
           <h2 className='text-[#02c873] leading-8 text-[28px] font-bold'>سياسة الخصوصية</h2>
-          <img className='pb-8' src={imgtitle} alt="image-tilte" />
+          <img className='pb-8' src={imgtitle} alt="imagetilte" />
         </div>
         <div>
           <p className='text-[22px] text-[#212529]  leading-12 fint-normal'>خصوصية زوارنا لها اهمية بالغة بالنسبة لنا . سياسة الخصوصية الموجودة في هذه الوثيقة تمثل الخطوط العريضه لأنواع المعلومات الشخصيه اللتى نجمعهاوكيفية استخدامها من قبلنا ومن قبل معلنينا .</p>

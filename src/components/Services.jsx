@@ -1,16 +1,13 @@
 import React from 'react'
 import imgtitle from '../images/title_img.svg'
 import img1 from '../images/service_img_01.jpg'
-// import img2 from '../images/service_img_02.jpg'
-// import img from '../images/service_img_0.jpg'
-
 const Services = () => {
   return (
     <div className='lg:h-[990px]  h-auto pt-[200px] bg-[#F6FDFF]'>
       <div className='flex justify-center items-center flex-col space-y-4 pt-8'>
         <h4 className='text-[#333333] leading-6 text-[22px] font-medium'>عن العيادة</h4>
         <h2 className='text-[#02c873] leading-8 text-[28px] font-bold'>خدمات العيادة
-        </h2>        <img className='pb-8' src={imgtitle} alt="image-tilte" />
+        </h2>        <img className='pb-8' src={imgtitle} alt="imagetilte" />
       </div>
       <div>
         <div className=' flex lg:flex-row lg:mx-40 flex-col gap-10 mb-14 '>
