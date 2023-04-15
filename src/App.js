@@ -11,8 +11,7 @@ const App = () => {
     <>
       <Header />
       <Routes >
-        <Route path='/' />
-        <Route path='/home' element={<Main />}> معلومات الدكتور</Route>
+        <Route path='/' element={<Main />}> معلومات الدكتور</Route>
         <Route path='/privacy' element={<Privacy />}> سياسة الخصوصية</Route>
         <Route path='/terms' element={<Terms />}>  شروط الاستخدام</Route>
       </Routes>
