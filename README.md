@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Scripts
 In the project directory, you can run:
-![Uploading image.png…]()
+![image](https://user-images.githubusercontent.com/89574402/232200938-c2dc18e4-8c4c-4560-9126-596201252e3b.png)
 
 ### `npm start`
 
